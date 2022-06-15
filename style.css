@@ -1,0 +1,222 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(179, 176, 176, 0.644);
+}
+
+
+header {
+    background-color: white;
+}
+
+header .container {
+    display: flex;
+    max-width: 1409px;
+    height: 54px;
+    margin: 0px auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+header .container .container_nav_logo {
+    display: flex;
+    align-items: center;
+}
+
+header .container .container_nav_logo nav {
+    display: flex;
+}
+
+header .container .container_nav_logo nav figure {
+    margin: 0 16px 0 0;
+}
+
+header .container .container_nav_logo nav figure img {
+    width: 108px;
+    height: auto;
+}
+
+header .container .container_nav_logo nav ul {
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+}
+
+header .container .container_nav_logo nav ul li {
+    margin: 0 8px;
+    list-style: none;
+}
+
+header .container .container_nav_logo nav ul li a {
+    text-decoration: none;
+}
+
+
+header .container_nav_right {
+    display: flex;
+    align-items: center;
+}
+
+header .container_nav_right ul {
+    display: flex;
+}
+
+header .container_nav_right ul li {
+    margin: 0 8px;
+    list-style: none;
+}
+
+header .container_nav_right ul li a {
+    text-decoration: none;
+}
+
+header .container_nav_right li a img {
+    width: 14px;
+    height: auto;
+    margin: 0 0 0 4px;
+}
+
+header .container_nav_right ul img {
+    width: 19px;
+    height: auto;
+    margin: 0 0 0 4px;
+}
+
+
+.container_content {
+    /* max-width: 1300px; */
+    margin: 0 auto;
+}
+
+.container_content .container_background_img {
+    background-image: url("./img/Captura\ de\ tela\ de\ 2022-06-12\ 15-30-15.png");
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+
+.container_content .container_background_img article {
+    width: 20%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 101px;
+}
+.container_content .container_background_img article h1{
+    margin: 0 0 20px;
+    font-size: 37px;
+    color: white;
+}
+.container_content .container_background_img article p{
+    line-height: 21px;
+    font-size: 17px;
+    color: white;
+}
+.container_content .container_background_img article a{
+    margin: 20px 0 0 0;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    padding: 8px 13px;
+    border: 1px solid transparent;
+    background-color: #0067b8;
+    border-radius: 3px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*header{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto; 
+   /*  width: 1264px;
+    height: 54px;
+  /*   max-width: 100%;
+    background-color: white;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header .container_nav_logo{
+    display: flex;
+    align-items: center;
+}
+header .container_nav_logo nav{
+    display: flex;
+}
+header .container_nav_logo nav figure{
+    margin-right: 40px;
+}
+header .container_nav_logo nav figure img{
+    width: 108px;
+    height: 23px;
+}
+header .container_nav_logo nav ul{
+    display: flex;
+    align-items: center;
+}
+header .container_nav_logo nav li{
+    list-style: none;
+    margin: 0 14px;
+}
+
+header .container_nav_logo nav li a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+
+
+header .container_nav_right{
+    display: flex;
+    align-items: center;
+}
+header .container_nav_right ul{
+    display: flex;
+    align-items: center;
+}
+header .container_nav_right li{
+    list-style: none;
+    margin: 0 14px;
+}
+header .container_nav_right li a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+
+header .container_nav_right li a img{
+    width: 14px;
+    height: auto;
+    margin: 0 0 0 4px;
+}
+
+header .container_nav_right ul img{
+    width: 14px;
+    height: auto;
+    margin: 0 0 0 4px;
+}

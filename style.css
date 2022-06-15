@@ -37,7 +37,7 @@ header .container .container_nav_logo nav figure {
 
 header .container .container_nav_logo nav figure img {
     width: 108px;
-    height: auto;
+    height: 23px;
 }
 
 header .container .container_nav_logo nav ul {
@@ -98,7 +98,8 @@ header .container_nav_right ul img {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-   
+    margin-bottom: 50px;
+
 }
 
 .container_content .container_background_img article {
@@ -111,17 +112,20 @@ header .container_nav_right ul img {
     justify-content: center;
     margin-left: 101px;
 }
-.container_content .container_background_img article h1{
+
+.container_content .container_background_img article h1 {
     margin: 0 0 20px;
     font-size: 37px;
     color: white;
 }
-.container_content .container_background_img article p{
+
+.container_content .container_background_img article p {
     line-height: 21px;
     font-size: 17px;
     color: white;
 }
-.container_content .container_background_img article a{
+
+.container_content .container_background_img article a {
     margin: 20px 0 0 0;
     text-decoration: none;
     font-size: 18px;
@@ -132,8 +136,34 @@ header .container_nav_right ul img {
     border-radius: 3px;
 }
 
+.container_content .container_background_img article a:hover {
+    background-color: #096cb8;
+}
 
+.container_link_img {
+    display: flex;
+    justify-content: center;
+    max-width: 1409px;
+   
+    margin: 0px auto;
+}
 
+.container_link_img a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 21px;
+    margin: 1px;
+    color: #0067b8;
+    
+}
+
+.container_link_img a img {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 12px;
+
+}
 
 
 

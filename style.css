@@ -60,6 +60,7 @@ header .container .container_nav_logo nav ul li {
 
 header .container .container_nav_logo nav ul li a {
     text-decoration: none;
+    color: black;
 }
 
 
@@ -79,6 +80,7 @@ header .container_nav_right ul li {
 
 header .container_nav_right ul li a {
     text-decoration: none;
+    color: black;
 }
 
 header .container_nav_right li a img {
@@ -175,7 +177,7 @@ header .container_nav_right ul img {
 
 
 .container_cards{
-    margin-bottom: 150px;
+    margin-bottom: 40px;
 }
 .container_cards .card_link{
     display: flex;
@@ -195,10 +197,71 @@ header .container_nav_right ul img {
     height: 214px;
 }
 .container_cards .card_link article main{}
-.container_cards .card_link article main h1{}
-.container_cards .card_link article main p{}
+.container_cards .card_link article main h1{
+    margin-bottom: 12px;
+}
+.container_cards .card_link article main p{
+    margin-bottom: 15px;
+}
 .container_cards .card_link article main div{}
-.container_cards .card_link article main div a{}
+.container_cards .card_link article main div a{
+    text-decoration: none;
+    color: #0067b8;
+    display: flex;
+    align-items: center;
+    margin-bottom: 7px;
+}
+.container_cards .card_link article main div a img{
+    width: 18px;
+    height: 16px;
+}
+
+
+.container_background_img2{
+    background-image: url(./img/Captura\ de\ tela\ de\ 2022-06-16\ 17-39-25.png);
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 1637px;
+    margin: 0 auto;
+}
+.container_background_img2 article{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 101px;
+}
+.container_background_img2 article h1{
+    margin: 0 0 20px;
+    font-size: 37px;
+    color: black;
+    line-height: 39px;
+}
+.container_background_img2 article p{
+    line-height: 21px;
+    font-size: 17px;
+    color: black;
+}
+.container_background_img2 article a{
+    margin: 20px 0 0 0;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    width: 122px;
+    padding: 8px 14px;
+    border: 1px solid transparent;
+    background-color: #0067b8;
+    border-radius: 3px;
+}
+
+.container_background_img2 article a:hover{
+    background-color: #096cb8;
+}
+
+
 
 
 

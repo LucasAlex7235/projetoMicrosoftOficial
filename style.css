@@ -114,7 +114,6 @@ header .container_nav_right ul img {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    margin-bottom: 50px;
 
 }
 
@@ -162,8 +161,7 @@ header .container_nav_right ul img {
     display: flex;
     justify-content: center;
     max-width: 1409px;
-   
-    margin: 0px auto;
+    margin: 52px auto 42px;
 }
 
 .container_link_img a {
@@ -200,11 +198,24 @@ header .container_nav_right ul img {
     width: 406px;
     height: 448px;
 }
-.container_cards .card_link article figure{}
-.container_cards .card_link article figure img{
+.container_cards .card_link article figure{
     width: 382px;
     height: 214px;
+    overflow: hidden;
+    margin-bottom: 10px;
 }
+.container_cards .card_link article figure img{
+    width: 100%;
+    height: 100%;
+    transform: scale(1);
+    transition: 1.07s;
+}
+
+.container_cards .card_link article figure img:hover{
+    transform: scale(1.05);
+    transition: 1.07s;
+}
+
 .container_cards .card_link article main{}
 .container_cards .card_link article main h1{
     margin-bottom: 12px;
@@ -265,10 +276,12 @@ header .container_nav_right ul img {
     border: 1px solid transparent;
     background-color: #0067b8;
     border-radius: 3px;
+    transition: 0.5s;
 }
 
 .container_background_img2 article a:hover{
-    background-color: #096cb8;
+    background-color: #097cd4;
+    transition: 0.5s;
 }
 
 
@@ -288,11 +301,25 @@ header .container_nav_right ul img {
     width: 406px;
     height: 448px;
 }
-.container_cards_top_footer .card_top_footer article figure{}
-.container_cards_top_footer .card_top_footer article figure img{
+.container_cards_top_footer .card_top_footer article figure{
     width: 382px;
     height: 214px;
+    overflow: hidden;
+    margin-bottom: 10px;
 }
+.container_cards_top_footer .card_top_footer article figure img{
+    width: 100%;
+    height: 100%;
+    transition: 1.07s;
+    transform: scale(1);
+    
+}
+
+.container_cards_top_footer .card_top_footer article figure img:hover{
+    transform: scale(1.04);
+    transition: 1.07s;
+}
+
 .container_cards_top_footer .card_top_footer article main{}
 .container_cards_top_footer .card_top_footer article main h3{
     margin-bottom: 12px;

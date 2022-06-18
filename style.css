@@ -59,6 +59,8 @@ header .container .container_nav_logo nav ul li a {
     text-decoration: none;
     color: black;
     transition: 0.1s;
+    font-weight: 300;
+    font-size: 15px;
 }
 
 header .container .container_nav_logo nav ul li a:hover {
@@ -84,6 +86,8 @@ header .container_nav_right ul li a {
     text-decoration: none;
     color: black;
     transition: 0.1s;
+    font-weight: 300;
+    font-size: 15px;
 }
 
 header .container_nav_right ul li a:hover {
@@ -98,8 +102,8 @@ header .container_nav_right li a img {
 }
 
 header .container_nav_right ul img {
-    width: 17px;
-    height: 17px;
+    width: 24px;
+    height: 24px;
     margin: 0 0 0 4px;
 }
 
@@ -132,11 +136,12 @@ header .container_nav_right ul img {
 .container_content .container_background_img article h1 {
     margin: 0 0 20px;
     font-size: 37px;
+    line-height: 40px;
     color: white;
 }
 
 .container_content .container_background_img article p {
-    line-height: 21px;
+    line-height: 26px;
     font-size: 17px;
     color: white;
 }
@@ -421,7 +426,7 @@ header .container_nav_right ul img {
     justify-content: flex-end;
     /* max-width: 1637px;
     margin: 0 auto; */
-    margin: 0 20px 20px;
+    margin: 0 20px 45px;
 }
 .container_content .botton a{
     text-decoration: none;
@@ -445,77 +450,40 @@ header .container_nav_right ul img {
     border-radius: 3px;
 }
 
-/*header{
-    display: flex;
-    justify-content: space-around;
-    margin: 0 auto; 
-   /*  width: 1264px;
-    height: 54px;
-  /*   max-width: 100%;
-    background-color: white;
+footer{
+    background-color: #f2f2f2;
 }
-
-.container{
-    max-width: 1200px;
+footer .container_footer{
+    display: flex;
+    max-width: 1637px;
+    padding: 15px 0;
     margin: 0 auto;
+    height: 346px;
+    justify-content: space-between;
 }
-
-header .container_nav_logo{
-    display: flex;
-    align-items: center;
-}
-header .container_nav_logo nav{
-    display: flex;
-}
-header .container_nav_logo nav figure{
-    margin-right: 40px;
-}
-header .container_nav_logo nav figure img{
-    width: 108px;
-    height: 23px;
-}
-header .container_nav_logo nav ul{
-    display: flex;
-    align-items: center;
-}
-header .container_nav_logo nav li{
-    list-style: none;
-    margin: 0 14px;
-}
-
-header .container_nav_logo nav li a{
-    text-decoration: none;
-    color: black;
+footer .container_footer article{}
+footer .container_footer article h3{
+    padding-top: 36px;
+    padding-bottom: 6px;
     font-size: 15px;
+    color: #616161;
 }
-
-
-header .container_nav_right{
-    display: flex;
-    align-items: center;
-}
-header .container_nav_right ul{
-    display: flex;
-    align-items: center;
-}
-header .container_nav_right li{
+footer .container_footer article ul{}
+footer .container_footer article ul li{
     list-style: none;
-    margin: 0 14px;
+    padding: 2px 0;
 }
-header .container_nav_right li a{
+footer .container_footer article ul li a{
+    font-size: 11px;
     text-decoration: none;
-    color: black;
-    font-size: 15px;
+    color: #616161;
 }
 
-header .container_nav_right li a img{
-    width: 14px;
-    height: auto;
-    margin: 0 0 0 4px;
+footer .container_footer article ul li a:hover{
+    text-decoration: underline;
 }
 
-header .container_nav_right ul img{
-    width: 14px;
-    height: auto;
-    margin: 0 0 0 4px;
-}
+
+
+
+
